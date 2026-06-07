@@ -1,0 +1,8 @@
+file_format: "1"
+id: mod_v3
+name: mod_v3
+type: shield
+url: https://github.com/HAMTEL77/zmk-config-mod_v3
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
