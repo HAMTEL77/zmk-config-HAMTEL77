@@ -1,0 +1,5 @@
+config SHIELD_MOD_R
+    def_bool $(shields_list_contains,mod_v3_R)
+
+config SHIELD_MOD_L
+    def_bool $(shields_list_contains,mod_v3_L)
