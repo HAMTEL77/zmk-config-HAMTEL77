@@ -1,4 +1,5 @@
 {
+  "id": "mod_v3",
   "name": "default_layout",
   "layouts": {
     "default_layout": {
@@ -54,5 +55,6 @@
         { "row": 3, "col": 12, "x": 12, "y": 3 }
       ]
     }
-  }
+  },
+  "sensors": []
 }
