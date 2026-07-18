@@ -1,8 +1,8 @@
 file_format: "1"
-id: mod_v3
-name: mod_v3
+id: Modey
+name: Modey
 type: shield
-url: https://github.com/HAMTEL77/zmk-config-mod_v3
+url: https://github.com/HAMTEL77/zmk-config-HAMTEL77
 requires: [seeeduino_xiao_ble]
 features:
   - keys
