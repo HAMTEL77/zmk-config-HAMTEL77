@@ -1,4 +1,4 @@
-#include "mod_v3.dtsi"
+#include "Modey.dtsi"
 
 &default_transform {
     col-offset = <6>;
