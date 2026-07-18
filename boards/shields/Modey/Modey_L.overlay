@@ -1,4 +1,4 @@
-#include "mod_v3.dtsi"
+#include "Modey.dtsi"
 
 &kscan0 {
     col-gpios =
