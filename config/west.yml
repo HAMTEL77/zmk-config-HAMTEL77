@@ -6,12 +6,14 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: HAMTEL77
       url-base: https://github.com/HAMTEL77
+    - name: sekigon-gonnoc
+      url-base: https://github.com/sekigon-gonnoc
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
     - name: zmk-driver-iqs7211e
-      remote: HAMTEL77
+      remote: sekigon-gonnoc
       revision: master
   self:
     path: config
