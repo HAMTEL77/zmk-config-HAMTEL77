@@ -4,6 +4,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: HAMTEL77
+      url-base: https://github.com/HAMTEL77
     - name: sekigon-gonnoc
       url-base: https://github.com/sekigon-gonnoc
   projects:
@@ -11,9 +13,6 @@ manifest:
       remote: zmkfirmware
       import: app/west.yml
     - name: zmk-driver-iqs7211e
-      remote: sekigon-gonnoc
-    - name: zmk-driver-paw3222
-      remote: sekigon-gonnoc
-      revision: main
+      remote: HAMTEL77
   self:
     path: config
