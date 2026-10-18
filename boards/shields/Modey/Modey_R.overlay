@@ -20,12 +20,6 @@
         status = "disabled";
 };
 
-/ {
-    trackball_listener {
-       status = "disabled";
-    };
-};
-
 &pinctrl {
     i2c0_default: i2c0_default {
         group1 {
