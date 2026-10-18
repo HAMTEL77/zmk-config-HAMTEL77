@@ -22,6 +22,7 @@ include:
  - board: seeeduino_xiao_ble
    shield: Modey_R
    snippet: studio-rpc-usb-uart
+   snippet: zmk-usb-logging
  - board: seeeduino_xiao_ble
    shield: Modey_L
  - board: seeeduino_xiao_ble
