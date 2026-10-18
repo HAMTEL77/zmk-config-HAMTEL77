@@ -20,6 +20,13 @@
         status = "disabled";
 };
 
+/ {
+    trackpad_listener: trackpad_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackpad>;
+    };
+};
+
 &pinctrl {
     i2c0_default: i2c0_default {
         group1 {
