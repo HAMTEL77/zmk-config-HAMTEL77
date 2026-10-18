@@ -12,5 +12,6 @@ manifest:
       import: app/west.yml
     - name: zmk-driver-iqs7211e
       remote: HAMTEL77
+      revision: master
   self:
     path: config
